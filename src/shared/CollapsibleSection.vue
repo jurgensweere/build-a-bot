@@ -7,14 +7,16 @@
         <slot v-if="open"></slot>
     </div>
 </template>
+
 <script>
 export default {
-    name: 'CollapsibleSection',
-    data() {
-        return { open: true };
-    },
-}
+  name: 'CollapsibleSection',
+  data() {
+    return { open: true };
+  },
+};
 </script>
+
 <style scoped>
 .header {
     background-color: #bbb;
